@@ -1,0 +1,63 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <title></title>
+    <style>
+        body {
+          background-image: url('https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
+    <marquee bgcolor=pink> Hotel Booking 25% Off </marquee>
+    <center> <H2><fontcolor:pink></fontcolor>HOTEL BOOKING</font></H2></FONTCOLOR> </center>
+    <style>
+        form {
+            border: 3px solid rgba(15, 210, 224, 0.533);
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid rgb(243, 207, 4);
+            box-sizing: border-box;
+        }
+        button {
+            background-color: hsl(356, 95%, 34%);
+            color: rgb(50, 250, 5);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        @media screen and (max-width: 600px) {
+            form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h2>Login</h2>
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
